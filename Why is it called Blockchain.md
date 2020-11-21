@@ -1,0 +1,4 @@
+Blockchain owes its name to the way it stores transaction data — in blocks that are linked together to form a chain (see Figure 1). As the number of transactions grows, so does the Blockchain. Blocks record and confirm the time and sequence of transactions, which are then logged into the Blockchain, within a discrete network governed by rules agreed on by the network participants.
+
+Figure 1: Blockchain stores transaction records in a series of connected
+Each block contains a hash (a digital fingerprint or unique identifier), timestamped batches of recent valid transactions, and the hash of the previous block. The previous block hash links the blocks together and prevents any block from being altered or block being inserted between two existing blocks. In this way, each subsequent block strengthens the verification of the previous block and hence the entire Blockchain. The method renders the Blockchain tamper-evident, lending to the key attribute of immutability.
